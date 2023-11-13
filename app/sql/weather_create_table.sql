@@ -1,0 +1,21 @@
+CREATE TABLE weather (
+    timestamp INT PRIMARY KEY, 
+    external_temperature_c REAL NOT NULL,
+    wind_speed_unmuted_m_s REAL NOT NULL,
+    wind_speed_m_s REAL NOT NULL,
+    wind_direction_degrees REAL NOT NULL,
+    radiation_intensity_unmuted_w_m2 REAL NOT NULL,
+    radiation_intensity_w_m2 REAL NOT NULL,
+    standard_radiation_intensity_w_m2 REAL NOT NULL,
+    radiation_sum_j_cm2 REAL NOT NULL,
+    radiation_from_plant_w_m2 REAL NOT NULL,
+    precipitation REAL NOT NULL,
+    relative_humidity_perc REAL NOT NULL,
+    moisture_deficit_g_kg REAL NOT NULL,
+    moisture_deficit_g_m3 REAL NOT NULL,
+    dew_point_temperature_c REAL NOT NULL,
+    abs_humidity_g_kg REAL NOT NULL,
+    enthalpy_kj_kg REAL NOT NULL,
+    enthalpy_kj_m3 REAL NOT NULL,
+    atmospheric_pressure_hpa REAL NOT NULL
+);
